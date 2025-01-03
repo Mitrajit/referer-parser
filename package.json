@@ -1,6 +1,6 @@
 {
     "name": "@mitrajit/referer-parser",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A simple referer parser made with a updated referrer database from snowplow.",
     "keywords": [
         "referrer",

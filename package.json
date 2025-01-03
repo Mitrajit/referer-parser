@@ -1,0 +1,30 @@
+{
+    "name": "@mitrajit/referer-parser",
+    "version": "1.0.0",
+    "description": "A simple referer parser made with a updated referrer database from snowplow.",
+    "keywords": [
+        "referrer",
+        "referer",
+        "parser"
+    ],
+    "homepage": "https://github.com/mitrajit/referer-parser#readme",
+    "bugs": {
+        "url": "https://github.com/mitrajit/referer-parser/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mitrajit/referer-parser.git"
+    },
+    "license": "MIT",
+    "author": "Mitrajit",
+    "main": "dist/src/index.js",
+    "types": "dist/src/index.d.ts",
+    "files": [
+        "dist",
+        "data"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build"
+    }
+}
